@@ -103,7 +103,7 @@ function my_keydown(e)
 	{
 		if(ball_x <=1050)
 		{
-			ball_x = ball_x - block_image_width;
+			ball_x = ball_x + block_image_width;
 			console.log("block image width = " + block_image_width);
 			console.log("When Right arrow key is pressed, X =  " + ball_x + " , Y = "+ball_y);
 			canvas.remove(ball_obj);
